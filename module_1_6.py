@@ -1,12 +1,12 @@
 my_dict = {'Andrey': 2012, 'Max': 2004, 'Sasha': 2000}
 print (my_dict)
 print (my_dict['Max'])
+print (my_dict.get('Bili'))
 (my_dict.update({'Misha': 2003,
                  'Sisa':1999}))
 print (my_dict)
 my_dict.pop('Max')
 print (my_dict)
-print (my_dict.get('Bili'))
 
 my_set ={1, 1, 2, 2, 3, 4, 4, True, 'son','son'}
 print (my_set)
